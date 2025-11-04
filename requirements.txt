@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+tqdm
+sentencepiece   # if using tokenizer needing it
+accelerate      # optional

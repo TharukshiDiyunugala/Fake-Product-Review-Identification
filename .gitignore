@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+.ipynb_checkpoints/
+
+# Data & model artifacts
+data/
+models/
+checkpoints/
+outputs/
+
+# Hugging Face caches
+cache/
+transformers_cache/
+torch_cache/
+
+# Jupyter
+*.ipynb
+
+# OS
+.DS_Store
