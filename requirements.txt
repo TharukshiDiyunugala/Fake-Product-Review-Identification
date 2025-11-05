@@ -1,9 +1,7 @@
-torch
-transformers
-datasets
-scikit-learn
 pandas
 numpy
+scikit-learn
+transformers
+torch
+matplotlib
 tqdm
-sentencepiece   # if using tokenizer needing it
-accelerate      # optional
