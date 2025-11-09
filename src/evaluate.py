@@ -1,5 +1,6 @@
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
+import pandas as pd
 from sklearn.metrics import classification_report
 
 def evaluate(model_path="../models/fake_review_model", data_path="../data/fake_reviews.csv"):

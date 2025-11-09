@@ -1,6 +1,6 @@
 import torch
 from torch.utils.data import DataLoader, Dataset
-from transformers import AdamW
+from torch.optim import AdamW
 from tqdm import tqdm
 from src.data import load_data, split_data
 from src.model import load_model
