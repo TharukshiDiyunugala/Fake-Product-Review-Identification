@@ -2,8 +2,8 @@ import torch
 from torch.utils.data import DataLoader, Dataset
 from torch.optim import AdamW
 from tqdm import tqdm
-from src.data import load_data, split_data
-from src.model import load_model
+from .data import load_data, split_data
+from .model import load_model
 
 class ReviewDataset(Dataset):
     def __init__(self, texts, labels, tokenizer, max_len=128):
